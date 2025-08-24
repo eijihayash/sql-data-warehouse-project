@@ -1,3 +1,13 @@
+/*
+DDL Script: Create Silver Table
+==========================================================================
+Acript Pupose:
+	This script creates tables in 'silver' schema, dropping existing table
+	if they alread exist.
+==========================================================================
+*/
+
+
 USE DataWarehouse;
 
 IF OBJECT_ID('silver.crm_cust_info', 'U') IS NOT NULL
